@@ -1,0 +1,13 @@
+
+
+
+CREATE TABLE if NOT EXISTS issues(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    gunid INTEGER NOT NULL, 
+    peg INTEGER, 
+    issue_type TEXT NOT NULL,
+    notes TEXT, 
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    );
+
