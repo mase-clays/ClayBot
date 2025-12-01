@@ -90,6 +90,8 @@ bot.run(TOKEN)
 
 #trying this out
 
+#ok finally my days
+
 
 
 
