@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 import os
-
+#irrelevant addition 
 load_dotenv()
 TOKEN = os.getenv("NEW_TOKEN")
 
