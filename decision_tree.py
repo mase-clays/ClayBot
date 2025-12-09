@@ -31,6 +31,12 @@ DECISION_TREE = {
         }
     },
 
+    "0_timer":{
+        "steps": [
+            "Please restart the game."
+            ]
+    },
+
     "profile_camera": {
         "steps": [
             "Check if the camera is plugged in.",
