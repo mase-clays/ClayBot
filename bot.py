@@ -4,9 +4,7 @@ from dotenv import load_dotenv
 from discord.ext import commands
 from types import SimpleNamespace
 from decision_tree import DECISION_TREE
-#mase 4/12/2025 16:26 commit
-#mase's commit from home 4/12/2025 at 20:24 #quick extra addition#one more
-#trying to commit rihgt now. 
+
 intents = discord.Intents.default()
 intents.message_content = True
 
