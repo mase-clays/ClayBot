@@ -18,7 +18,7 @@ DECISION_TREE = {
     "terminal_issue": {
         "question": "What is the issue?",
         "reactions": {
-            "1️⃣": "Screen frozen",
+            "1️⃣": "Screen_frozen",
             "2️⃣": "other_terminal_issue"
         }
     },
@@ -68,5 +68,19 @@ DECISION_TREE = {
         ]
     },
 
+    "double_peg_3_leds":{
+        "steps" [
+            "Please switch the configuration (7up -> 7down) of both guns.",
+            "Check LEDs of both guns, if they have 6 then play as normal."
+        ]
+    },
+
+    "game_issue":{
+        "question": "What is the issue?",
+        "reactions": {
+            "1️⃣": "0_timer",
+            "2️⃣": "other_game_issue"
+    }
+    }
     
 }
