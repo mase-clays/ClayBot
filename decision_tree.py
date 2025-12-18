@@ -18,7 +18,7 @@ DECISION_TREE = {
     "terminal_issue": {
         "question": "What is the issue?",
         "reactions": {
-            "1️⃣": "Screen_frozen",
+            "1️⃣": "screen_frozen",
             "2️⃣": "other_terminal_issue"
         }
     },
@@ -49,7 +49,9 @@ DECISION_TREE = {
         "question": "What is the issue?",
         "reactions": {
             "1️⃣": "3_leds",
-            "2️⃣": "not_shooting"
+            "2️⃣": "not_shooting",
+            "3️⃣": "gun_broken",
+            "4️⃣": ""
         }
     },
 
@@ -81,6 +83,8 @@ DECISION_TREE = {
             "1️⃣": "0_timer",
             "2️⃣": "other_game_issue"
     }
-    }
+    },
+
+    
     
 }
