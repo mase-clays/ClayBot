@@ -11,9 +11,12 @@ DECISION_TREE = {
             "📷": "camera_issue",
             "🔫": "gun_issue", 
             "🎮": "game_issue",
-            "📟": "terminal_issue"
+            "📟": "terminal_issue",
+            "❓": "unknown_issue"
         }
     },
+
+
 
     "terminal_issue": {
         "question": "What is the issue?",
@@ -60,7 +63,7 @@ DECISION_TREE = {
         "reactions": {
             "1️⃣": "single_peg_3_leds",
             "2️⃣": "double_peg_3_leds"
-    }
+        }
     },
 
     "single_peg_3_leds": {
@@ -71,7 +74,7 @@ DECISION_TREE = {
     },
 
     "double_peg_3_leds":{
-        "steps" [
+        "steps": [
             "Please switch the configuration (7up -> 7down) of both guns.",
             "Check LEDs of both guns, if they have 6 then play as normal."
         ]
@@ -82,8 +85,19 @@ DECISION_TREE = {
         "reactions": {
             "1️⃣": "0_timer",
             "2️⃣": "other_game_issue"
-    }
+        }
     },
+
+    "unknown_issue":{
+        "steps": [
+            "Please confirm you have done the following:",
+            "1. Restarted the game.",
+            "2. Ensure guns have 6 LEDs.", 
+            "3. Motive is up and running.",
+            "4. Gun receiver is plugged in properly."
+
+            ]
+    }
 
     
     

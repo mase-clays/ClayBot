@@ -18,7 +18,11 @@ x = ratio[0:3]
 
 x = "ratio"
 def myfunc():
+    global x
     x = "Fantastic"
+    
 
 myfunc()
-print(myfunc())
+
+print (x)
+
