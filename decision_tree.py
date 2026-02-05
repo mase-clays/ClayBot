@@ -84,8 +84,17 @@ DECISION_TREE = {
         "question": "What is the issue?",
         "reactions": {
             "1️⃣": "0_timer",
-            "2️⃣": "other_game_issue"
+            "2️⃣": "other_game_issue",
+            "3️⃣": "Gun_not_recognised"
         }
+    },
+
+    "Gun_not_recognised":{
+        "steps": [
+            "Please ensure the receiver is plugged in, and the PORT is matching with the game settings",
+            "Make sure gun has LEDs, and responding to inputs correctly(vibration)",
+            "Try restarting the game."
+        ]
     },
 
     "unknown_issue":{
