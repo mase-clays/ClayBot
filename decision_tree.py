@@ -11,7 +11,7 @@ DECISION_TREE = {
             "📷": "camera_issue",
             "🔫": "gun_issue", 
             "🎮": "game_issue",
-            "📟": "terminal_issue",
+            "📟": "kiosk_issue",
             "❓": "unknown_issue"
         }
     },
@@ -54,7 +54,8 @@ DECISION_TREE = {
             "1️⃣": "3_leds",
             "2️⃣": "not_shooting",
             "3️⃣": "gun_broken",
-            "4️⃣": ""
+            "4️⃣": "gun_won't_turn_on",
+            "5️⃣": "other_gun_issue"
         }
     },
 
